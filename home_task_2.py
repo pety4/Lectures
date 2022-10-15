@@ -35,3 +35,4 @@ def triangle(a):
         triangleArray[i] = ' ' * (a - i) + '*' * (2 * i + 1)
         print(triangleArray[i])
 
+triangle(5)
